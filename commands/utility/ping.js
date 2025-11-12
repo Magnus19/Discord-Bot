@@ -7,4 +7,11 @@ module.exports = {
 	async execute(interaction) {
 		await interaction.reply("Pong!");
 	},
+
+	data: new SlashCommandBuilder()
+		.setName("Cazrhyl")
+		.setDescription("Replies with....."),
+	async execute(interaction) {
+		await interaction.reply("SUH MAH DIH");
+	},
 };
